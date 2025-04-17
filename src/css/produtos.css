@@ -41,7 +41,6 @@ header nav ul li a:hover{
     text-decoration: underline 5px black;
 }
 
-
 #conteudo{
     display: grid;
     grid-template-columns: 1fr 200px;
