@@ -1,1 +1,0 @@
-alert("Seja bem vindo a Vinheria Agnello!\nEsperamos que você tenha uma ótima experiencia.");
