@@ -7,7 +7,7 @@ body{
     background: #f4f4f4;
 }
 
-#container{
+.container{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -43,9 +43,11 @@ header nav ul li a:hover{
 /* ======= CARROSSEL ======= */
 .carrossel {
     position: relative;
-    width: 100%;
-    height: 400px;
+    width: 100vw;
+    height: 80vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .carrossel a {
@@ -82,7 +84,9 @@ header nav ul li a:hover{
 }
 /* ======= FIM DO CARROSSEL  ======= */
 
-
+main.conteudo{
+    flex: 1;
+}
 footer{
     background: #330101;
     color:#fff;
@@ -124,3 +128,4 @@ footer{
         grid-template-columns: 1fr;
     }
 }
+
